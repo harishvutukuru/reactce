@@ -3,20 +3,32 @@ import './App.css';
 import Helloworld from './helloworld'
 import Greet from './components/greet'
 import Welcome from './components/welcome'
+import Message from './components/Message'
+import Counter from './components/counter'
+import Functionclick from './components/functionclick'
+import Classclick  from './components/classclick';
+import Eventbind from './components/eventbind'
 function App() {
   return (
-    <div className="App">
+    <div>
        {/* <Helloworld></Helloworld> */}
-       <Greet name="harish" lastname="Vutukuru">
+       {/* <Greet name="harish" lastname="Vutukuru">
         <p>This is children props</p>
         <p>Thhhhh</p>
-       </Greet>
-       <Greet name="pavan" lastname="Bendi">
+       </Greet> */}
+       {/* <Greet name="pavan" lastname="Bendi">
         <button>Click</button>
-       </Greet>
-       <Greet name="Meghana" lastname="Bendapudi"></Greet>
+       </Greet> */}
+       {/* <Greet name="Meghana" lastname="Bendapudi"></Greet>
        <Welcome name="Bruce" middlename="Richard" lastname="wayne"></Welcome>
-       <Welcome name="mark" middlename="Richard" lastname="wayne"></Welcome>
+       <Welcome name="mark" middlename="Richard" lastname="wayne"></Welcome> */}
+       {/* <Message>
+        <button>Click</button>
+       </Message> */}
+       {/* <Counter></Counter> */}
+       {/* <Functionclick></Functionclick>
+       <Classclick></Classclick> */}
+<Eventbind></Eventbind>
     </div>
   );
 }
