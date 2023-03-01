@@ -5,7 +5,7 @@ export class parentcomponent extends Component {
       super(props)
     
       this.state = {
-         parentname:"Parent";
+         parentname:"Parent"
       }
     }
     greetparent(){
