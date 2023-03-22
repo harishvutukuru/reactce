@@ -1,9 +1,12 @@
 import React from 'react'
 
 function childcomponent(props) {
+    function callchild(){
+        alert('child called')
+    }
   return (
     <div>
-        <button onClick={propos.greetparent}>Call the parent</button>
+        <button onClick={()=>{props.greetHandler('harish')}}>click</button>
     </div>
   )
 }
